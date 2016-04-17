@@ -143,6 +143,7 @@ def computeCharMap(article):
     for index, coref in article['corefs'].iteritems():
         allPN = True
         charSet = set()
+        nounCharSet = set()
         for item in coref:
             lineNum = item['sentNum'] - 1
             nounFlag = False
@@ -158,6 +159,7 @@ def computeCharMap(article):
             word = concatTokens(tokens[start: end])
             charSet.add(word)
             if nounFlag:
+                nounCharSet.add(word)
                 # if characterMap.get(word, charNum) != charNum:
                 #     print fName.encode('utf-8')
                 #     print "warning!", word.encode('utf-8')
@@ -167,8 +169,12 @@ def computeCharMap(article):
             if (firstNoun >= start and firstNoun < end and
                     sentence['quote'] == TOTAL_NORMAL):
                 article['sentences'][lineNum]['belongTo'] = charNum
+        if allPN:
+            chars = list(charSet)
+        else:
+            chars = list(nounCharSet)
         charNumMap[charNum] = {
-            'chars': list(charSet),
+            'chars': chars,
             'allPN': allPN,
             'sentences': []}
         charNum += 1
