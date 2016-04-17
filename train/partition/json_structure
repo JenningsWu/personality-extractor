@@ -1,0 +1,9 @@
+[{
+  chars: [string, ...], // the set of character names
+  allPN: bool, // whether names is all PN or not
+  sentences: [{
+    index: int,
+    word: string,
+    pos: string
+  }, ...]
+}, ...]
