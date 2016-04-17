@@ -5,7 +5,7 @@ from subprocess import call
 import argparse
 
 coreNLPLibDir = "c:\\corenlp"
-trainDir = 'train/corpus1'
+trainDir = 'train/corpus*'
 trainTmpDir = 'train/tmp'
 curDir = os.path.abspath(sys.path[0])
 propertiesPath = "properties/StanfordCoreNLP-chinese.properties"

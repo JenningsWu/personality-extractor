@@ -32,6 +32,7 @@ def extractSentence(sentence):
         s['tokens'].append(t)
     return s
 
+
 def loadJson(oriFile, tmpFile):
     with io.open(tmpFile, 'r') as jsonF, io.open(
             oriFile, 'r', encoding='utf-8') as trainF:
@@ -60,6 +61,7 @@ def loadJson(oriFile, tmpFile):
                    ", skip it")
             return None
     return article
+
 
 def assignQuoteFlag(article):
     quoteFlag, lastLineNum = False, 0
@@ -104,8 +106,8 @@ def assignQuoteFlag(article):
             quoteFlag = False
         lastLineNum = sentence['tokens'][
             len(sentence['tokens']) - 1]['line']
-
     return article
+
 
 def computeFirstNoun(article):
     for sentence in article['sentences']:
@@ -132,6 +134,7 @@ def computeFirstNoun(article):
                 if token['word'] == u'“' or token['word'] == u'”':
                     startFlag = True
     return article
+
 
 def computeCharMap(article):
     characterMap = {}
@@ -171,6 +174,7 @@ def computeCharMap(article):
         charNum += 1
     return characterMap, charNumMap
 
+
 def computeBelongTo(article, characterMap):
     lastSentenceBelongTo = -1
     normal_quote_flag = False
@@ -200,7 +204,8 @@ def computeBelongTo(article, characterMap):
                 quoteList = []
         else:
             if normal_quote_flag:
-                if sentence['tokens'][0]['word'] == u'“':
+                if (sentence['tokens'][0]['word'] == u'“' or
+                        sentence['tokens'][0]['word'] == u'”'):
                     normal_quote_flag = False
                 else:
                     belongTo = lastSentenceBelongTo
@@ -234,7 +239,6 @@ if __name__ == "__main__":
         characterMap, charNumMap = computeCharMap(article)
 
         article = computeBelongTo(article, characterMap)
-        
 
         output = []
         for i, sentence in enumerate(article['sentences']):
