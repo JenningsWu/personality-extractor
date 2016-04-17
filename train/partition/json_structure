@@ -1,9 +1,18 @@
+quoteType:
+  TOTAL_QUOTE  = 0
+  QUOTE_NORMAL = 1
+  NORMAL_QUOTE = 2
+  TOTAL_NORMAL = 3
+
 [{
   chars: [string, ...], // the set of character names
-  allPN: bool, // whether names is all PN or not
-  sentences: [{
-    index: int,
-    word: string,
-    pos: string
+  allPN: bool, // whether names are all PNs or not
+  sentences:[{
+    type: int, // quoteType
+    tokens: [{
+      index: int,
+      word: string,
+      pos: string
+    }, ...]
   }, ...]
 }, ...]
