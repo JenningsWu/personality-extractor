@@ -195,6 +195,12 @@ def computeBelongTo(article, characterMap):
                 normal_quote_flag = True
             elif sentence['quote'] == QUOTE_NORMAL:
                 normal_quote_flag = True
+                tmpIndex = i - 1
+                quoteList = []
+                while (tmpIndex >= 0 and
+                        article['sentences'][tmpIndex]['quote'] == TOTAL_QUOTE):
+                    quoteList.append(tmpIndex)
+                    tmpIndex -= 1
                 for index in quoteList:
                     article['sentences'][index]['belongTo'] = belongTo
                 quoteList = []
