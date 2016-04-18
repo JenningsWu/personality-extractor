@@ -1,4 +1,4 @@
-# -*- coding: gb2312 -*-
+# -*- coding: utf-8 -*-
 #Classify partited data
 #sentences description type(desc_type):action(0), speech(1), description(2)
 #Character Personality type(personality):[impulsive(1)/calm(0),Extrovert(1)/Introvert(0),
@@ -41,7 +41,7 @@ while True:
         break
 modelFile.close()
 #load test data
-test = io.open(testDataPath,'r')
+test = io.open(testDataPath,'r', encoding='utf-8')
 dataSets = json.load(test, encoding='utf-8')
 test.close() 
 #analyze & output:
