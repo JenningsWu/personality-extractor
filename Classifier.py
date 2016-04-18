@@ -3,6 +3,8 @@
 #sentences description type(desc_type):action(0), speech(1), description(2)
 #Character Personality type(personality):[impulsive(1)/calm(0),Extrovert(1)/Introvert(0),
 #                                         Optimistic(1)/pessimistic(0)]
+import sys
+import os
 import json
 import io
 #Data Structures
@@ -13,9 +15,13 @@ descTypeOutput = -1 #action(0), speech(1), description(2)
 personality = [0,0,0,0,0,0]#impulsive,calm, Extrovert, Introvert, Optimistic, pessimistic
 personalityOutput = [0,0,0]#[impulsive(1)/calm(0),Extrovert(1)/Introvert(0),Optimistic(1)/pessimistic(0)]
 
+actionCount = 0
+speechCount = 0
+descriptionCount = 0
+totalCount = 0
 diffWordCount = 0
-modelPath = 'k_model.txt'
-testDataPath = 'train/partition/k_partition.txt.json'
+modelPath = 'e:/1/k_model.txt'
+testDataPath = 'e:/1/k_partition.txt.json'
 #load model
 modelFile = open(modelPath,'r')
 diffWordCount = int(modelFile.readline())
@@ -41,19 +47,22 @@ while True:
         break
 modelFile.close()
 #load test data
-test = io.open(testDataPath,'r', encoding='utf-8')
-dataSets = json.load(test, encoding='utf-8')
+test = io.open(testDataPath,'r',encoding = 'utf-8')
+#testData = test.read()
+dataSets = json.load(test,encoding = 'utf-8')
 test.close() 
 #analyze & output:
 for dataSet in dataSets:
     personality = [0,0,0,0,0,0]
     for i in dataSet['chars']:
-        print 'character:',i.encode('utf-8')
+        print 'character:',i
+        print '\nsentences:\n'
     for i in dataSet['sentences']:
+        sentence = ''
         descType = [0,0,0]
         for j in i['tokens']:
             word = j['word']
-            #print descTypeProb[word][0]
+            sentence += word
             try:
                 for k in range(0,3):
                     descType[k] += float(descTypeProb[word][k])
@@ -65,7 +74,16 @@ for dataSet in dataSets:
             descTypeOutput = 1
         else:
             descTypeOutput = 2
-        print descTypeOutput
+        print sentence
+        if descTypeOutput == 0:
+            print "Description Type: Action"
+            actionCount += 1
+        elif descTypeOutput == 1:
+            print "Description Type: Speech"
+            speechCount +=1
+        else:
+            print "Description Type: Description"
+            descriptionCount +=1
         for j in i['tokens']:
             word = j['word']
             try:
@@ -79,5 +97,21 @@ for dataSet in dataSets:
             personalityOutput[k] = 1
         else:
             personalityOutput[k]=0
-print personalityOutput
-
+    print '\nPersonality:\n'
+    if personalityOutput[0] == 1:
+        print 'impulsive;'
+    else:
+        print 'calm;'
+    if personalityOutput[1] == 1:
+        print 'extrovert;'
+    else:
+        print 'introvert;'
+    if personalityOutput[2] == 1:
+        print 'optimistic.'
+    else:
+        print 'pessimistic.'
+totalCount = actionCount + speechCount + descriptionCount
+print'\nWriting Style:\n'
+print'Action:',actionCount/float(totalCount)
+print'Speech:',speechCount/float(totalCount)
+print'Description:',descriptionCount/float(totalCount)
