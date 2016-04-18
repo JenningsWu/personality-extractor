@@ -4,6 +4,7 @@
 #Character Personality type(personality):[impulsive(1)/calm(0),Extrovert(1)/Introvert(0),
 #                                         Optimistic(1)/pessimistic(0)]
 import json
+import io
 #Data Structures
 descTypeProb = dict()   #{word:[probability of 3 desc_type]}
 personalityProb = dict()#{word:{desctype:6 probabilities for each personalites},...}
@@ -40,15 +41,14 @@ while True:
         break
 modelFile.close()
 #load test data
-test = open(testDataPath,'r')
-testData = test.read()
-dataSets = json.loads(testData.decode('gb2312'))
+test = io.open(testDataPath,'r')
+dataSets = json.load(test, encoding='utf-8')
 test.close() 
 #analyze & output:
 for dataSet in dataSets:
     personality = [0,0,0,0,0,0]
     for i in dataSet['chars']:
-        print 'character:',i
+        print 'character:',i.encode('utf-8')
     for i in dataSet['sentences']:
         descType = [0,0,0]
         for j in i['tokens']:
