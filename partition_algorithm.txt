@@ -1,0 +1,20 @@
+1. Run CoreNLP, do Sentence Split, Tokenize, Part of Speech and Coreference. Get the Coreference Sets C1, C2, ..., Cn, each pi ∈ Ck refers to the same person or thing Pk.
+2. Read original article, add paragraph num to each sentences.
+3. Divide sentences into 4 types: Total_QUOTE (This is speech sentence), TOTAL_NORMAL (This is not speech sentence), QUOTE_NORMAL(The first half is speech sentence, others is not), NORMAL_QUOTE (The first half is not speech sentence, the others is). This is implemented by following steps:
+  3.a Set global flag QUOTE_FLAG = False
+  3.b Find the first/next sentence
+  3.c If sentence has the different paragraph num as the last sentence, set QUOTE_FLAG = False
+  3.d If the first token in sentence is "“" or "”", or QUOTE_FLAG is True, skip to 3.g
+  3.e If token "“" exist but is not the last token of sentence, assign sentence as NORMAL_QUOTE and skip to 3.h. 
+  3.f Assign sentence as TOTAL_NORMAL, go to 3.b
+  3.g If token "”" exists, assign sentence as QUOTE_NORMAL, set QUOTE_FLAG = False; else assign sentence as TOTAL_QUOTE, set QUOTE_FLAG = True. Go to 3.b
+  3.h If token "”" doesn't exist, set QUOTE_FLAG = True. Go to 3.b
+  This algorithm will try to recover from some typo errors about "“" and "”" in articles.
+4. Find the key noun (first noun) of each sentence.
+  4.a If the sentence is QUOTE_NORMAL, assign the first noun/pronoun after the token "”" as the key noun of this sentence.
+  4.b Else, simply assign the first noun/pronoun as the key noun.
+5. For each sentence:
+  5.a If the sentence is TOTAL_NORMAL or NORMAL_QUOTE, and this sentence to the coreference set which its key noun belongs to.
+  5.b If the sentence is TOTAL_QUOTE, and this sentence to the coreference set which its most recent previous sentence belongs to.
+  5.c If the sentence is QUOTE_NORMAL, find the coreference set Ci its key noun belongs to. Add this sentence to Ci. Find all previous sentence in order of recency until the sentence is TOTAL_NORMAL. Remove these setntences from the coreference sets we add to before, and add them into Ci.
+  Note: When we find which coreference sets the key noun belongs to, if the key noun is pronoun, we need to use the coreference link we get from CoreNLP. If not (and it is the noun token), we find which coreference set contains its noun phrase.
