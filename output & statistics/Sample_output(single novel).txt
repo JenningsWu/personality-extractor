@@ -1,0 +1,119 @@
+Novel Name:  受戒
+
+
+Character: 明海
+Aliases:
+
+“明海” 	
+明海 	
+
+sentences:
+
+明海出家已经四年了。
+Description Type: Description
+他是十三岁来的。
+Description Type: Description
+明海在家叫小明子。
+Description Type: Description
+他是从小就确定要出家的。
+Description Type: Description
+“明海。”
+Description Type: Action
+明海看着她的脚印，傻了。
+Description Type: Description
+明海身上有一种从来没有过的感觉，他觉得心里痒痒的。
+Description Type: Description
+……明海到善因寺去受戒。
+Description Type: Description
+明海自去报名办事，小英子就到处看看。
+Description Type: Description
+
+Personality:
+
+impulsive;
+introvert;
+pessimistic.
+
+
+Character: 英子
+Aliases:
+
+英子 	
+小英子 	
+
+sentences:
+
+小英子把吃剩的半个莲蓬扔给明海，小明子就剥开莲蓬壳，一颗一颗吃起来。
+Description Type: Description
+小英子跑过来：“给我！
+Description Type: Action
+给我！”
+Description Type: Speech
+小英子比她娘还会说，一天咭咭呱呱地不停。
+Description Type: Description
+小英子说：“他会画！
+Description Type: Action
+画得跟活的一样！”
+Description Type: Speech
+小英子把明海请到家里来，给他磨墨铺纸，小和尚画了几张，大英子喜欢得了不得：“就是这样！
+Description Type: Action
+就是这样！
+Description Type: Speech
+这就可以乱孱！”
+Description Type: Speech
+小英子就像个书童，又像个参谋：“画一朵石榴花！”
+Description Type: Action
+小英子捺住他的肩膀，说：“快叫！
+Description Type: Action
+快叫！”
+Description Type: Speech
+连大英子也停下针线：“真好听！”
+Description Type: Action
+小英子非常骄傲地说：“一十三省数第一！”
+Description Type: Action
+我忘了在裤带上打一个结！”
+Description Type: Speech
+小英子说。
+Description Type: Action
+小英子喊起来：“明子！
+Description Type: Action
+明子！
+Description Type: Action
+你怎么啦？
+Description Type: Speech
+你发疯啦？
+Description Type: Speech
+为什么划得这么快？”
+Description Type: Speech
+小英子早早就把船划到荸荠庵门前。
+Description Type: Description
+小英子出了庙，闻着自己的衣服都是香的。
+Description Type: Description
+小英子想起还要给家里打油，替姐姐配丝线，给娘买鞋面布，给自己买两个坠围裙飘带的银蝴蝶，给爹买旱烟，就出庙了。
+Description Type: Description
+“小英子！”
+Description Type: Action
+……小英子把明海接上船。
+Description Type: Description
+小英子这天穿了一件细白夏布上衣，下边是黑洋纱的裤子，赤脚穿了一双龙须草的细草鞋，头上一边插着一朵栀子花，一边插着一朵石榴花。
+Description Type: Description
+小英子在中舱，明子扳艄，在船尾。
+Description Type: Description
+小英子忽然把桨放下，走到船尾，趴在明子的耳朵旁边，小声地说：“我给你当老婆，你要不要？”
+Description Type: Action
+英子跳到中舱，两只桨飞快地划起来，划进了芦花荡。
+Description Type: Description
+
+Personality:
+
+impulsive;
+extrovert;
+optimistic.
+
+
+
+Writing Style:
+
+Speech: 0.230769230769
+Action: 0.333333333333
+Description: 0.435897435897

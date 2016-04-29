@@ -1,0 +1,575 @@
+Novel Name:  受戒
+
+
+Character: 明海
+Aliases:
+
+“明海” 	
+明海 	
+
+sentences:
+
+明海出家已经四年了。
+Description Type: Description
+他是十三岁来的。
+Description Type: Description
+明海在家叫小明子。
+Description Type: Description
+他是从小就确定要出家的。
+Description Type: Description
+“明海。”
+Description Type: Action
+明海看着她的脚印，傻了。
+Description Type: Description
+明海身上有一种从来没有过的感觉，他觉得心里痒痒的。
+Description Type: Description
+……明海到善因寺去受戒。
+Description Type: Description
+明海自去报名办事，小英子就到处看看。
+Description Type: Description
+
+Personality:
+
+impulsive;
+introvert;
+pessimistic.
+
+
+Character: 英子
+Aliases:
+
+英子 	
+小英子 	
+
+sentences:
+
+小英子把吃剩的半个莲蓬扔给明海，小明子就剥开莲蓬壳，一颗一颗吃起来。
+Description Type: Description
+小英子跑过来：“给我！
+Description Type: Action
+给我！”
+Description Type: Speech
+小英子比她娘还会说，一天咭咭呱呱地不停。
+Description Type: Description
+小英子说：“他会画！
+Description Type: Action
+画得跟活的一样！”
+Description Type: Speech
+小英子把明海请到家里来，给他磨墨铺纸，小和尚画了几张，大英子喜欢得了不得：“就是这样！
+Description Type: Action
+就是这样！
+Description Type: Speech
+这就可以乱孱！”
+Description Type: Speech
+小英子就像个书童，又像个参谋：“画一朵石榴花！”
+Description Type: Action
+小英子捺住他的肩膀，说：“快叫！
+Description Type: Action
+快叫！”
+Description Type: Speech
+连大英子也停下针线：“真好听！”
+Description Type: Action
+小英子非常骄傲地说：“一十三省数第一！”
+Description Type: Action
+我忘了在裤带上打一个结！”
+Description Type: Speech
+小英子说。
+Description Type: Action
+小英子喊起来：“明子！
+Description Type: Action
+明子！
+Description Type: Action
+你怎么啦？
+Description Type: Speech
+你发疯啦？
+Description Type: Speech
+为什么划得这么快？”
+Description Type: Speech
+小英子早早就把船划到荸荠庵门前。
+Description Type: Description
+小英子出了庙，闻着自己的衣服都是香的。
+Description Type: Description
+小英子想起还要给家里打油，替姐姐配丝线，给娘买鞋面布，给自己买两个坠围裙飘带的银蝴蝶，给爹买旱烟，就出庙了。
+Description Type: Description
+“小英子！”
+Description Type: Action
+……小英子把明海接上船。
+Description Type: Description
+小英子这天穿了一件细白夏布上衣，下边是黑洋纱的裤子，赤脚穿了一双龙须草的细草鞋，头上一边插着一朵栀子花，一边插着一朵石榴花。
+Description Type: Description
+小英子在中舱，明子扳艄，在船尾。
+Description Type: Description
+小英子忽然把桨放下，走到船尾，趴在明子的耳朵旁边，小声地说：“我给你当老婆，你要不要？”
+Description Type: Action
+英子跳到中舱，两只桨飞快地划起来，划进了芦花荡。
+Description Type: Description
+
+Personality:
+
+impulsive;
+extrovert;
+optimistic.
+
+
+
+Writing Style:
+
+Speech: 0.230769230769
+Action: 0.333333333333
+Description: 0.435897435897
+Novel Name:  吴若增：翡翠烟嘴
+
+
+Character: 蔡四
+Aliases:
+
+蔡四 	
+
+sentences:
+
+好在蔡四身子弱，挣工分养家几乎全亏了这位“黑老婆”，所以倒也看不出他嫌弃来。
+Description Type: Speech
+只是蔡四似乎对此十分计较，大有非叫不可之势，于是，“四爷”“四爷”地便终于叫起来了。
+Description Type: Action
+
+Personality:
+
+calm;
+introvert;
+pessimistic.
+
+
+
+Writing Style:
+
+Speech: 0.243902439024
+Action: 0.341463414634
+Description: 0.414634146341
+Novel Name:  孔乙己
+
+
+Character: 孔乙己
+Aliases:
+
+孔乙己 	
+
+sentences:
+
+孔乙己是站着喝酒而穿长衫的唯一的人。
+Description Type: Description
+他身材很高大；青白脸色，皱纹间时常夹些伤痕；一部乱蓬蓬的花白的胡子。
+Description Type: Speech
+孔乙己一到店，所有喝酒的人便都看着他笑，有的叫道，“孔乙己，你脸上又添上新伤疤了！”
+Description Type: Description
+孔乙己睁大眼睛说，“你怎么这样凭空污人清白……”“什么清白？
+Description Type: Action
+孔乙己便涨红了脸，额上的青筋条条绽出，争辩道：“窃书不能算偷……窃书！
+Description Type: Action
+……读书人的事，能算偷么？”
+Description Type: Action
+孔乙己没有法，便免不了偶然做些偷窃的事。
+Description Type: Description
+但他在我们店里，品行却比别人都好，就是从不拖欠；虽然间或没有现钱，暂时记在粉板上，但不出一月，定然还清，从粉板上拭去了孔乙己的名字。
+Description Type: Description
+孔乙己喝过半碗酒，涨红的脸色渐渐复了原，旁人便又问道，“孔乙己，你当真认识字么？”
+Description Type: Speech
+孔乙己看着问他的人，显出不屑置辩的神气。
+Description Type: Description
+孔乙己立刻显出颓唐不安模样，脸上笼上了一层灰色，嘴里说些话；这回可是全是之乎者也之类，一些不懂了。
+Description Type: Description
+孔乙己自己知道不能和他们谈天，便只好向孩子说话。
+Description Type: Description
+孔乙己等了许久，很恳切的说道，“不能写罢？
+Description Type: Speech
+……我教给你，记着！
+Description Type: Action
+这些字应该记着。
+Description Type: Description
+将来做掌柜的时候，写账要用。”
+Description Type: Speech
+孔乙己显出极高兴的样子，将两个指头的长指甲敲着柜台，点头说，“对呀对呀！
+Description Type: Description
+……回字有四样写法，你知道么？”
+Description Type: Action
+孔乙己刚用指甲蘸了酒，想在柜上写字，见我毫不热心，便又叹一口气，显出极惋惜的样子。
+Description Type: Description
+孔乙己着了慌，伸开五指将碟子罩住，弯腰下去说道，“不多了，我已经不多了。”
+Description Type: Speech
+孔乙己是这样的使人快活，可是没有他，别人也便这么过。
+Description Type: Description
+站起来向外一望，那孔乙己便在柜台下对了门槛坐着。
+Description Type: Description
+孔乙己很颓唐的仰面答道，“这……下回还清罢。
+Description Type: Speech
+这一回是现钱，酒要好。”
+Description Type: Description
+孔乙己低声说道，“跌断，跌，跌……”他的眼色，很像恳求掌柜，不要再提。
+Description Type: Action
+自此以后，又长久没有看见孔乙己。
+Description Type: Description
+
+Personality:
+
+impulsive;
+introvert;
+pessimistic.
+
+
+
+Writing Style:
+
+Speech: 0.238805970149
+Action: 0.298507462687
+Description: 0.462686567164
+Novel Name:  李相虎
+
+
+
+Writing Style:
+
+Speech: 0.238805970149
+Action: 0.298507462687
+Description: 0.462686567164
+Novel Name:  班主任刘心武
+
+
+Character: 谢惠敏
+Aliases:
+
+谢惠敏 	
+
+sentences:
+
+的确，谢惠敏除了随着大伙看看电影、唱唱每个阶段的推荐歌曲，几乎没有什么业余爱好。
+Description Type: Description
+她功课中平，作业有时完不成，主要是由于社会工作占去的精力和时间大多了--因此倒也能获得老师和同学们的谅解。
+Description Type: Description
+谢惠敏对他们的"教诲"并不能心领神会，因为她没有丝毫的政治投机心理，她单纯而真诚。
+Description Type: Description
+比如说，谢惠敏来告状，说团支部过组织生活时，五个团员竟有两个打瞌睡。
+Description Type: Description
+谢惠敏瞪圆了双眼，几乎不相信自己的耳朵，隔了好一阵，才抗议地说："爬山，那叫什么组织生活？
+Description Type: Description
+谢惠敏虽然热得直喘气，却惊讶得满脸涨红，她简直不能理解张老师在提倡什么作风！
+Description Type: Description
+现在，谢惠敏找到张老师。
+Description Type: Description
+谢惠敏提议说："团支部明天课后开个现场会，积极分子们也参加，摆出这些东西，狠狠批判一顿！"
+Description Type: Description
+大伙都同意，张老师也点头说："对，要利用这个机会，进一步抓好反腐蚀教育。"
+Description Type: Description
+谢惠敏感到张老师神情有点异常，忙把那本书要过来翻看。
+Description Type: Description
+她以前没听说过、更没看见过这本书，她见里头有外国男女讲恋爱的插图，不禁惊叫起来："唉呀！
+Description Type: Description
+她开始接触图书的这些年，恰好是"四人帮"搞法西斯文化专制主义最凶的几年。
+Description Type: Description
+可爱而又可怜的谢惠敏啊，她单纯地崇信一切用铅字新排印出来的东西，而在"四人帮"控制舆论工具的那几年里，她用虔诚的态度拜读的报纸刊物上，充塞着多少他们的"帮文"，喷溅出了多少戕害青少年的毒汁啊！
+Description Type: Description
+就这样，谢惠敏正当风华正茂之年，满心满意想成为一个好的革命者，想为共产主义这个大目标而奋斗，却被"四人帮"害得眼界狭窄、是非模糊。
+Description Type: Description
+我听爸爸妈妈讲过，《牛虻》这本书值得一读！
+Description Type: Description
+这两天我正读《钢铁是怎样炼成的》，里头的保尔·柯察金是个无产阶级英雄，可他就特别佩服'牛虻'……"石红早就想找本《牛虻》来看，一直没有借到，所以她从谢惠敏手中拿过书来翻动时，心里翻腾着强烈的求知欲：这本书写的是什么时代的事儿？
+Description Type: Description
+谢惠敏咬住嘴唇，眯起眼睛，不满地望着石红，心里怦怦直跳。
+Description Type: Description
+对谢惠敏这样实际上还很幼稚的孩子。
+Description Type: Description
+而且，甚至象谢惠敏这样本质纯正的孩子身上，都有着"四人帮"用残酷的愚民政策所打下的黑色烙印！"
+Description Type: Description
+……"谢惠敏一脸警惕的神色警告着石红，不仅自己拒绝参加这个活动，还劝说石红不要"犯错误"……这把石红惹恼了，同她吵了一场，但临走时仍然拉着她的手，央告她去"听听再说"，她把石红的手拂开了。
+Description Type: Description
+过去，对谢惠敏成为这样一种状态，他总觉得自己难以承担责任--他在接班不久的情况下，就向谢惠敏含蓄地指出过，不要只是学习零星的语录，不要迷信解释领袖思想的文章，要认真学习原著，要独立思考……但谢惠敏并未领悟。
+Description Type: Description
+
+Personality:
+
+impulsive;
+extrovert;
+pessimistic.
+
+
+Character: 宋宝琦
+Aliases:
+
+宋宝琦 	
+小流氓宋宝琦 	
+我们的宋宝琦 	
+
+sentences:
+
+宋宝琦的确有严重的资产阶级思想，但究竟是哪一些资产阶级思想呢？
+Description Type: Description
+而宋宝琦呢？
+Description Type: Description
+他自从陷入了那个流氓集团以后，便无时无刻不处于森严的约束之中，并且多次被大流氓"扇耳茄子"与用烟头烫后脑勺。
+Description Type: Description
+他愤怒吗？
+Description Type: Description
+不，他既无追求"个性解放"、呼号"自由、平等"的思想行动，也从未想到过"博爱"；他一方面迷信"哥儿们义气"，心甘情愿地替大流氓当"炊拨儿"，另一方面又把扇比他更小的流氓耳光当作最大的乐趣。
+Description Type: Description
+什么"成名成家"，他连想也没有想过，因为从他懂事的时候起，一切专门家--科学家、工程师、作家、教授……几乎都被林贼、"四人带"打成了"臭老九"，论排行，似乎还在他们流氓之下，对他来说，何羡慕之有？
+Description Type: Description
+……所以，不能笼统地给宋宝琦贴上个"满脑袋资产阶级思想"的标签便罢休，要对症下药！
+Description Type: Description
+宋宝琦刚经历过专政机关严厉的审讯和带强制性的训斥，那滋味当然远比一个班主任老师的询问与教育难受，所以，他尽可能用最恭顺的态度回答说："记得。
+Description Type: Description
+宋宝琦为能表现一下自己并非愚钝无知感到非常高兴，他第一次有了专注的神情，眨着眼，费劲地回忆着："有《红岩》，有……《和平与战争》，要不，就是《战争与和平》，对了，还有一本书特怪，叫……《新嫁车的词儿》……"这让张老师吃了一惊。
+Description Type: Description
+他想了想，掏出钢笔在手心里写了《辛稼轩词选》几个字，伸出去让宋宝琦看，宋宝琦赶忙点头："就是！
+Description Type: Description
+宋宝琦垂下眼皮，认罪地说："我们比赛来着，一人拿一本，翻画儿，翻着女的就画，谁画的多，谁运气就好……"张老师愤然注视着宋宝琦，一时说不出话来。
+Description Type: Description
+宋宝琦抬起眼皮偷觑了张老师一眼，以为一定是自己的态度不够老实，忙补充说："我们不对，我们不该看这黄书……我们算命，看谁先交上女朋友……我们……我再也不敢了！"
+Description Type: Description
+他想起了在公安局里受审的情景，也想起了母亲接他出来那天，两只红红的、交织着疼和恨的眼睛。"
+Description Type: Description
+
+Personality:
+
+impulsive;
+introvert;
+pessimistic.
+
+
+
+Writing Style:
+
+Speech: 0.166666666667
+Action: 0.196078431373
+Description: 0.637254901961
+Novel Name:  神童
+
+
+Character: 姥姥
+Aliases:
+
+姥姥 	
+
+sentences:
+
+姥姥说，妈妈回来得坐三天三夜火车，得花一百块钱。
+Description Type: Description
+姥姥一边拍打着身上的白灰一边冲他喊。
+Description Type: Description
+姥姥又用围裙抽打后背。
+Description Type: Description
+姥姥就是这点不好，她说什么你就得听，要不打得会更疼。
+Description Type: Description
+“没有，唉，是没有，”姥姥叨咕着。
+Description Type: Action
+看样子姥姥今天不会打了。
+Description Type: Speech
+“没有什么呀，姥姥？”
+Description Type: Action
+姥姥用拇指掐着食指的指尖说。
+Description Type: Description
+姥姥挺失望的样子。
+Description Type: Description
+“也许是我记错了，也许是我当时没看清。
+Description Type: Description
+快穿上吧，小心着凉！”
+Description Type: Speech
+姥姥亲见地在他屁股上打了一巴掌。
+Description Type: Description
+姥姥说着从他的作业本上扯下了一张纸。
+Description Type: Description
+“有个小孩儿长了一身毛，又上电影又上电视又上报纸又上无线电。
+Description Type: Description
+听说大首长还接见，连爹妈都跟着沾光。
+Description Type: Description
+你周爷爷说，长尾巴的也行。
+Description Type: Speech
+可我真是记得你有个小尾巴来着，不长。”
+Description Type: Speech
+姥姥又用拇指掐着食指的指尖。
+Description Type: Description
+然后，她开始把扯下来的纸裁开。
+Description Type: Description
+姥姥顿时愣住了。
+Description Type: Speech
+明明看看姥姥发白的脸。
+Description Type: Description
+姥姥一把把他拉到怀里，搂着，摸着，亲着。
+Description Type: Description
+“是姥姥不好，是你妈不好，是你那个活该死了的爸爸不好……”姥姥的声音颤抖着。
+Description Type: Action
+姥姥忽然破口大骂起来：“谁他妈跟我们孩子胡说，我x他八辈祖宗！
+Description Type: Action
+哪个混蛋这么缺德，让他不得好死！
+Description Type: Speech
+出门让汽车轧死！”
+Description Type: Speech
+姥姥撩起眼泪来了。
+Description Type: Description
+姥姥的气似乎消了一点。
+Description Type: Description
+“姥姥，什么叫私生子呀！”
+Description Type: Action
+姥姥微笑了。
+Description Type: Description
+，姥姥把那张纸裁成了几张小纸条，然后把枕巾蒙在了明明头上，说：“可别看啊。”
+Description Type: Description
+瞧姥姥那高兴劲，仿佛明明已经是神童了。
+Description Type: Description
+姥姥把一个小纸球儿塞到明明的左耳朵眼里。
+Description Type: Description
+姥姥的老花镜后面闪动着希望的光辉，两只粗糙干裂的手举在胸前，做好了随时拥抱明明的准备。
+Description Type: Description
+可是姥姥比明明着急。
+Description Type: Description
+她把右耳凑到明明的左耳边，把老花镜都碰歪了。
+Description Type: Description
+姥姥掏出了那个纸球，又把它塞进了明明的右耳。
+Description Type: Description
+“这回好好听，别紧张。
+Description Type: Action
+‘”可姥姥的手直发抖，还打了个冷战。
+Description Type: Speech
+“听见了没有？
+Description Type: Action
+哭什么？
+Description Type: Action
+！”
+Description Type: Speech
+姥姥急了，在明明的屁股上狠狠地踢了一脚。
+Description Type: Description
+姥姥把纸球放在他手里。
+Description Type: Description
+看样子姥姥已经不抱什么希望了。
+Description Type: Description
+姥姥坐在他面前，眼睛一眨不眨，嘴唇用劲缩在一起，恨不能帮他说出来。
+Description Type: Description
+姥姥的希望又复燃了。
+Description Type: Description
+姥姥在他脸上使劲亲了一下。
+Description Type: Description
+姥姥捏了捏明明的小脸蛋，擦去他长睫毛上的泪珠。
+Description Type: Description
+姥姥被惊呆了。
+Description Type: Description
+她坐在床上呆愣了好一会，忽然抓起纸球儿往外奔去。
+Description Type: Description
+不一会，姥姥拉着周爷爷进来了。
+Description Type: Description
+她指着明明说。
+Description Type: Description
+姥姥又把一个纸球儿放在明明手里。
+Description Type: Description
+姥姥把纸球打开，举到周爷爷眼前。
+Description Type: Description
+！”
+Description Type: Speech
+姥姥把明明楼在怀里，满脸的皱纹都在笑。
+Description Type: Description
+
+Personality:
+
+impulsive;
+introvert;
+pessimistic.
+
+
+
+Writing Style:
+
+Speech: 0.173913043478
+Action: 0.173913043478
+Description: 0.652173913043
+Novel Name:  阿长与山海经
+
+
+Character: 长妈妈
+Aliases:
+
+妈妈 	
+长妈妈 	
+
+sentences:
+
+长妈妈，已经说过，是一个一向带领着我的女工，说得阔气一点，就是我的保姆。
+Description Type: Description
+
+Personality:
+
+impulsive;
+introvert;
+pessimistic.
+
+
+
+Writing Style:
+
+Speech: 0.172839506173
+Action: 0.172839506173
+Description: 0.654320987654
+Novel Name:  霸王别姬
+
+
+Character: 虞姬
+Aliases:
+
+虞姬 	
+
+sentences:
+
+“米九石，玉蜀黍八袋，杂粮十袋。
+Description Type: Speech
+虞姬！”
+Description Type: Speech
+他转过脸向那静静地立在帷帐前拭抹着佩剑上的血渍的虞姬，他眼睛里爆裂的火花照亮了她的正在帐帷的阴影中的脸。
+Description Type: Description
+虞姬裹紧了斗篷，把宽大的袖口遮住了那一点烛光，防它被风吹灭了。
+Description Type: Speech
+虞姬轻轻地离开了他们。
+Description Type: Description
+虞姬托着腮凝想着。
+Description Type: Description
+虞姬木然站着，她先是略略有些惶惑。
+Description Type: Speech
+虞姬不说话，手里的烛台索索地乱颤。
+Description Type: Description
+虞姬看着他——不，不，她不能叫醒他告诉他悲惨的一切。
+Description Type: Description
+他现在至少是愉快的；他在梦到援兵的来临，也许他还梦见内外夹攻把刘邦的大队杀得四散崩溃，也许他还梦见自己重新做了诸侯的领袖，梦见跨了乌骓整队进了咸阳，那不太残酷了么，假如他突然明白过来援军是永远不会来了？
+Description Type: Description
+虞姬微笑。
+Description Type: Description
+
+Personality:
+
+impulsive;
+introvert;
+pessimistic.
+
+
+Character: 项羽
+Aliases:
+
+项羽 	
+
+sentences:
+
+项羽，那驰名天下的江东叛军领袖，巍然地跽在虎皮毯上，腰略向前俯，用左肘撑着膝盖，右手握着一块蘸了漆的木片，在一方素帛上沙沙地画着。
+Description Type: Speech
+他有一张粗线条的脸庞，皮肤微黑，阔大，坚毅的方下巴。
+Description Type: Description
+项羽冲过去托住她的腰，她的手还紧紧抓着那镶金的刀柄，项羽俯下他的含泪的火一般光明的大眼睛紧紧瞅着她。
+Description Type: Description
+项羽把耳朵凑到她的颤动的唇边，他听见她在说一句他所不懂的话：“我比较喜欢那样的收梢。”
+Description Type: Action
+
+Personality:
+
+impulsive;
+extrovert;
+pessimistic.
+
+
+
+Writing Style:
+
+Speech: 0.186440677966
+Action: 0.16384180791
+Description: 0.649717514124
