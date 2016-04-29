@@ -22,5 +22,5 @@ Preprocess: Run CoreNLP, do Sentence Split, Tokenize, Part of Speech and Corefer
     For all previous sentence S' in order of recency:
     4.c.1 If S'.type =TOTAL_NORMAL, break;
     4.c.1 S'.belongsTo <- S.belongsTo.
-  Note: When we find which coreference sets the key noun belongs to, if the key noun is pronoun, we need to use the coreference link we get from CoreNLP. If not (and it is the noun token), we find which coreference set contains its noun phrase.
+  Note: When we try to find which coreference sets the key noun belongs to, if the key noun is pronoun, we need to use the coreference link we get from CoreNLP. If not (and it is the noun token), we find which coreference set contains its noun phrase.
 Now, each coreference set represents a character, each S.belongsTo represents which character the sentence is about.
